@@ -4,7 +4,7 @@ export ARCH=arm64
 mkdir out
 
 BUILD_CROSS_COMPILE=$(pwd)/../aarch64-linux-android-4.9/bin/aarch64-linux-android-
-KERNEL_LLVM_BIN=$(pwd)/../clang-r399163b/bin/clang
+KERNEL_LLVM_BIN=$(pwd)/../clang-r383902/bin/clang
 CLANG_TRIPLE=aarch64-linux-gnu-
 KERNEL_MAKE_ENV="DTC_EXT=$(pwd)/tools/dtc CONFIG_BUILD_ARM64_DT_OVERLAY=y"
 
